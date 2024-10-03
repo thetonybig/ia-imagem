@@ -5,7 +5,7 @@ from deepface import DeepFace
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 
 # Start capturing video
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture('video.mp4')
 
 while True:
     # Capture frame-by-frame
